@@ -18,7 +18,7 @@ def create_volt_activity_timeline():
     df["date"] = pd.to_datetime(df["date"])
 
     # Spread labels vertically to avoid overlap
-    df["label_y"] = [1.4, -1.2, 1.2, -1.4, 1.4, -1.2, 1.2]
+    df["label_y"] = [1.4, -1.2, 1.2, -2, 2, -1.2, 1.2]
 
     fig = go.Figure()
 
