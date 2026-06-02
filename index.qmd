@@ -2,6 +2,30 @@
 title: "Volt Typhoon Analysis"
 ---
 
-This is a Quarto website.
+## Overview
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This website presents an overview of Volt Typhoon activity, mapped to MITRE ATT&CK tactics, detection sources, and mitigations.
+
+## Activity Timeline
+
+This timeline shows how observed activity develops over time.
+
+<iframe src="figures/volt_typhoon_activity_timeline.html" width="100%" height="650"></iframe>
+
+## Detection Sources
+
+This figure shows which data sources are most useful for detecting Volt Typhoon behavior.
+
+<iframe src="figures/volt_typhoon_detection_sources.html" width="100%" height="650"></iframe>
+
+## Mitigation Coverage
+
+This chart shows which ATT&CK techniques have stronger or weaker mitigation coverage.
+
+<iframe src="figures/volt_typhoon_mitigation_coverage.html" width="100%" height="650"></iframe>
+
+## Tactic Coverage Heatmap
+
+This heatmap shows how Volt Typhoon techniques are distributed across tactics.
+
+<iframe src="figures/volt_typhoon_tactic_coverage_heatmap.html" width="100%" height="650"></iframe>

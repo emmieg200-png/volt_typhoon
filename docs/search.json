@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Volt Typhoon Analysis",
+    "section": "",
+    "text": "This website presents an overview of Volt Typhoon activity, mapped to MITRE ATT&CK tactics, detection sources, and mitigations."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Volt Typhoon Analysis",
+    "section": "",
+    "text": "This website presents an overview of Volt Typhoon activity, mapped to MITRE ATT&CK tactics, detection sources, and mitigations."
+  },
+  {
+    "objectID": "index.html#activity-timeline",
+    "href": "index.html#activity-timeline",
+    "title": "Volt Typhoon Analysis",
+    "section": "Activity Timeline",
+    "text": "Activity Timeline\nThis timeline shows how observed activity develops over time."
+  },
+  {
+    "objectID": "index.html#detection-sources",
+    "href": "index.html#detection-sources",
+    "title": "Volt Typhoon Analysis",
+    "section": "Detection Sources",
+    "text": "Detection Sources\nThis figure shows which data sources are most useful for detecting Volt Typhoon behavior."
+  },
+  {
+    "objectID": "index.html#mitigation-coverage",
+    "href": "index.html#mitigation-coverage",
+    "title": "Volt Typhoon Analysis",
+    "section": "Mitigation Coverage",
+    "text": "Mitigation Coverage\nThis chart shows which ATT&CK techniques have stronger or weaker mitigation coverage."
+  },
+  {
+    "objectID": "index.html#tactic-coverage-heatmap",
+    "href": "index.html#tactic-coverage-heatmap",
+    "title": "Volt Typhoon Analysis",
+    "section": "Tactic Coverage Heatmap",
+    "text": "Tactic Coverage Heatmap\nThis heatmap shows how Volt Typhoon techniques are distributed across tactics."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

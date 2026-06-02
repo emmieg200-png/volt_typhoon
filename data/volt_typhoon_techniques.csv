@@ -1,0 +1,698 @@
+Technique,ATTACK_ID,Tactic,Used_by_VT,group_id,group_name
+Extra Window Memory Injection,T1055.011,"Stealth, Privilege Escalation",No,,
+Scheduled Task,T1053.005,"Execution, Persistence, Privilege Escalation",No,,
+Socket Filters,T1205.002,"Stealth, Persistence, Command And Control",No,,
+Archive via Utility,T1560.001,Collection,Yes,G1017,Volt Typhoon
+VNC,T1021.005,Lateral Movement,No,,
+Windows Management Instrumentation,T1047,Execution,Yes,G1017,Volt Typhoon
+Exploitation for Defense Impairment,T1687,Defense Impairment,No,,
+Screen Capture,T1113,Collection,Yes,G1017,Volt Typhoon
+Fileless Storage,T1027.011,Stealth,No,,
+Boot or Logon Initialization Scripts,T1037,"Persistence, Privilege Escalation",No,,
+Adversary-in-the-Middle,T1557,"Credential Access, Collection",Yes,G1017,Volt Typhoon
+System Owner/User Discovery,T1033,Discovery,Yes,G1017,Volt Typhoon
+Acquire Infrastructure,T1583,Resource Development,Yes,G1017,Volt Typhoon
+Rundll32,T1218.011,Stealth,No,,
+Container and Resource Discovery,T1613,Discovery,No,,
+Serverless,T1583.007,Resource Development,No,,
+Standard Encoding,T1132.001,Command And Control,No,,
+Embedded Payloads,T1027.009,Stealth,No,,
+Pluggable Authentication Modules,T1556.003,"Defense Impairment, Persistence, Credential Access",No,,
+Revert Cloud Instance,T1578.004,Defense Impairment,No,,
+Gather Victim Host Information,T1592,Reconnaissance,Yes,G1017,Volt Typhoon
+Digital Certificates,T1596.003,Reconnaissance,No,,
+Keylogging,T1056.001,"Collection, Credential Access",Yes,G1017,Volt Typhoon
+File/Path Exclusions,T1564.012,Stealth,No,,
+Linux and Mac Permissions,T1222.002,Defense Impairment,Yes,G1017,Volt Typhoon
+Password Guessing,T1110.001,Credential Access,No,,
+PubPrn,T1216.001,Stealth,No,,
+Purchase Technical Data,T1597.002,Reconnaissance,No,,
+OS Credential Dumping,T1003,Credential Access,Yes,G1017,Volt Typhoon
+Shared Modules,T1129,Execution,Yes,G1017,Volt Typhoon
+Data from Configuration Repository,T1602,Collection,No,,
+Disk Structure Wipe,T1561.002,Impact,No,,
+Direct Network Flood,T1498.001,Impact,No,,
+Path Interception by PATH Environment Variable,T1574.007,"Stealth, Execution",No,,
+Sharepoint,T1213.002,Collection,No,,
+Direct Volume Access,T1006,Stealth,Yes,G1017,Volt Typhoon
+Artificial Intelligence,T1588.007,Resource Development,No,,
+Modify Cloud Resource Hierarchy,T1666,Defense Impairment,No,,
+Email Hiding Rules,T1564.008,Stealth,No,,
+External Defacement,T1491.002,Impact,No,,
+Encrypted/Encoded File,T1027.013,Stealth,Yes,G1017,Volt Typhoon
+IP Addresses,T1590.005,Reconnaissance,No,,
+OS Exhaustion Flood,T1499.001,Impact,No,,
+Rootkit,T1014,Stealth,No,,
+PowerShell Profile,T1546.013,"Privilege Escalation, Persistence",No,,
+JavaScript,T1059.007,Execution,Yes,G1017,Volt Typhoon
+Modify or Spoof Tool UI,T1685.003,Defense Impairment,No,,
+DNS,T1590.002,Reconnaissance,No,,
+Lifecycle-Triggered Deletion,T1485.001,Impact,No,,
+Audio Capture,T1123,Collection,No,,
+Create or Modify System Process,T1543,"Persistence, Privilege Escalation",Yes,G1017,Volt Typhoon
+External Remote Services,T1133,"Persistence, Initial Access",Yes,G1017,Volt Typhoon
+LC_LOAD_DYLIB Addition,T1546.006,"Privilege Escalation, Persistence",No,,
+Steal Web Session Cookie,T1539,Credential Access,No,,
+Container Orchestration Job,T1053.007,"Execution, Persistence, Privilege Escalation",No,,
+Domain Generation Algorithms,T1568.002,Command And Control,No,,
+Double File Extension,T1036.007,Stealth,No,,
+Bypass User Account Control,T1548.002,Privilege Escalation,No,,
+SMS Pumping,T1496.003,Impact,No,,
+Internet Connection Discovery,T1016.001,Discovery,Yes,G1017,Volt Typhoon
+Sudo and Sudo Caching,T1548.003,Privilege Escalation,No,,
+Disable or Modify Windows Event Log,T1685.001,Defense Impairment,Yes,G1017,Volt Typhoon
+Query Public AI Services,T1682,Reconnaissance,No,,
+Archive via Custom Method,T1560.003,Collection,No,,
+Modify Cloud Compute Infrastructure,T1578,Defense Impairment,No,,
+Network Devices,T1584.008,Resource Development,Yes,G1017,Volt Typhoon
+Malvertising,T1583.008,Resource Development,No,,
+Permission Groups Discovery,T1069,Discovery,Yes,G1017,Volt Typhoon
+Email Collection,T1114,Collection,No,,
+Security Account Manager,T1003.002,Credential Access,Yes,G1017,Volt Typhoon
+WHOIS,T1596.002,Reconnaissance,No,,
+System Firmware,T1542.001,"Stealth, Persistence",No,,
+Search Victim-Owned Websites,T1594,Reconnaissance,Yes,G1017,Volt Typhoon
+Cloud Groups,T1069.003,Discovery,No,,
+Services Registry Permissions Weakness,T1574.011,"Stealth, Execution",No,,
+DNS/Passive DNS,T1596.001,Reconnaissance,No,,
+Application Exhaustion Flood,T1499.003,Impact,No,,
+Compromise Software Dependencies and Development Tools,T1195.001,Initial Access,No,,
+Digital Certificates,T1588.004,Resource Development,No,,
+DNS Server,T1583.002,Resource Development,No,,
+Disk Wipe,T1561,Impact,No,,
+DNS,T1071.004,Command And Control,No,,
+Cloud Instance Metadata API,T1552.005,Credential Access,No,,
+Securityd Memory,T1555.002,Credential Access,No,,
+Group Policy Discovery,T1615,Discovery,No,,
+Bootkit,T1542.003,"Stealth, Persistence",No,,
+Data from Removable Media,T1025,Collection,No,,
+Mavinject,T1218.013,Stealth,No,,
+Local Data Staging,T1074.001,Collection,Yes,G1017,Volt Typhoon
+Match Legitimate Resource Name or Location,T1036.005,Stealth,Yes,G1017,Volt Typhoon
+Digital Certificates,T1587.003,Resource Development,No,,
+Stored Data Manipulation,T1565.001,Impact,No,,
+Password Cracking,T1110.002,Credential Access,No,,
+Local Email Collection,T1114.001,Collection,No,,
+Keychain,T1555.001,Credential Access,No,,
+Boot or Logon Autostart Execution,T1547,"Persistence, Privilege Escalation",Yes,G1017,Volt Typhoon
+LSA Secrets,T1003.004,Credential Access,Yes,G1017,Volt Typhoon
+Weaken Encryption,T1600,Defense Impairment,No,,
+SAML Tokens,T1606.002,Credential Access,No,,
+Masquerade File Type,T1036.008,Stealth,Yes,G1017,Volt Typhoon
+Service Stop,T1489,Impact,No,,
+Malware,T1587.001,Resource Development,Yes,G1017,Volt Typhoon
+Device Driver Discovery,T1652,Discovery,No,,
+Domain Account,T1087.002,Discovery,Yes,G1017,Volt Typhoon
+Active Setup,T1547.014,"Persistence, Privilege Escalation",No,,
+Hide Artifacts,T1564,Stealth,Yes,G1017,Volt Typhoon
+Dynamic Data Exchange,T1559.002,Execution,No,,
+Malicious File,T1204.002,Execution,No,,
+Identify Business Tempo,T1591.003,Reconnaissance,No,,
+Disable or Modify Linux Audit System Log,T1685.004,Defense Impairment,No,,
+Publish/Subscribe Protocols,T1071.005,Command And Control,No,,
+Hardware,T1592.001,Reconnaissance,No,,
+Taint Shared Content,T1080,Lateral Movement,No,,
+Trust Modification,T1484.002,"Defense Impairment, Privilege Escalation",No,,
+Databases,T1213.006,Collection,No,,
+Symmetric Cryptography,T1573.001,Command And Control,Yes,G1017,Volt Typhoon
+Local Account,T1087.001,Discovery,Yes,G1017,Volt Typhoon
+Social Media Accounts,T1586.001,Resource Development,No,,
+Browser Extensions,T1176.001,Persistence,No,,
+TFTP Boot,T1542.005,"Stealth, Persistence",No,,
+Windows Host Firewall,T1686.003,Defense Impairment,No,,
+Windows Service,T1543.003,"Persistence, Privilege Escalation",Yes,G1017,Volt Typhoon
+Fast Flux DNS,T1568.001,Command And Control,No,,
+System Checks,T1497.001,"Stealth, Discovery",Yes,G1017,Volt Typhoon
+Cron,T1053.003,"Execution, Persistence, Privilege Escalation",No,,
+Domain Groups,T1069.002,Discovery,Yes,G1017,Volt Typhoon
+Vulnerabilities,T1588.006,Resource Development,Yes,G1017,Volt Typhoon
+Spearphishing Link,T1566.002,Initial Access,No,,
+Application or System Exploitation,T1499.004,Impact,No,,
+Office Application Startup,T1137,Persistence,No,,
+InstallUtil,T1218.004,Stealth,No,,
+Spearphishing Link,T1598.003,Reconnaissance,No,,
+SSH,T1021.004,Lateral Movement,No,,
+Additional Cloud Roles,T1098.003,"Persistence, Privilege Escalation",No,,
+Print Processors,T1547.012,"Persistence, Privilege Escalation",No,,
+Spearphishing Attachment,T1566.001,Initial Access,No,,
+Stripped Payloads,T1027.008,Stealth,No,,
+Component Object Model,T1559.001,Execution,No,,
+DLL,T1574.001,"Stealth, Execution",No,,
+Automated Collection,T1119,Collection,No,,
+Downgrade Attack,T1689,Defense Impairment,No,,
+Clipboard Data,T1115,Collection,No,,
+Proc Filesystem,T1003.007,Credential Access,No,,
+Botnet,T1583.005,Resource Development,No,,
+Password Managers,T1555.005,Credential Access,No,,
+Gatekeeper Bypass,T1553.001,Defense Impairment,No,,
+ESXi Administration Command,T1675,Execution,No,,
+Drive-by Target,T1608.004,Resource Development,No,,
+System Service Discovery,T1007,Discovery,Yes,G1017,Volt Typhoon
+Network Sniffing,T1040,"Credential Access, Discovery",Yes,G1017,Volt Typhoon
+Code Signing,T1553.002,Defense Impairment,No,,
+Data from Cloud Storage,T1530,Collection,No,,
+Runtime Data Manipulation,T1565.003,Impact,No,,
+Credentials in Registry,T1552.002,Credential Access,Yes,G1017,Volt Typhoon
+Network Share Discovery,T1135,Discovery,Yes,G1017,Volt Typhoon
+Peripheral Device Discovery,T1120,Discovery,Yes,G1017,Volt Typhoon
+Break Process Trees,T1036.009,Stealth,No,,
+Network Topology,T1590.004,Reconnaissance,Yes,G1017,Volt Typhoon
+Code Signing Certificates,T1587.002,Resource Development,No,,
+Windows Permissions,T1222.001,Defense Impairment,No,,
+Add-ins,T1137.006,Persistence,No,,
+Disable or Modify Cloud Log,T1685.002,Defense Impairment,No,,
+Transport Agent,T1505.002,Persistence,No,,
+System Information Discovery,T1082,Discovery,Yes,G1017,Volt Typhoon
+Application Layer Protocol,T1071,Command And Control,Yes,G1017,Volt Typhoon
+AppDomainManager,T1574.014,"Stealth, Execution",No,,
+Remote Data Staging,T1074.002,Collection,No,,
+Additional Container Cluster Roles,T1098.006,"Persistence, Privilege Escalation",No,,
+Scheduled Task/Job,T1053,"Execution, Persistence, Privilege Escalation",No,,
+Msiexec,T1218.007,Stealth,No,,
+Network Trust Dependencies,T1590.003,Reconnaissance,No,,
+Reflection Amplification,T1498.002,Impact,No,,
+Password Filter DLL,T1556.002,"Defense Impairment, Persistence, Credential Access",No,,
+Terminal Services DLL,T1505.005,Persistence,No,,
+AppleScript,T1059.002,Execution,No,,
+Software Extensions,T1176,Persistence,No,,
+Service Exhaustion Flood,T1499.002,Impact,No,,
+Compromise Hardware Supply Chain,T1195.003,Initial Access,No,,
+Native API,T1106,Execution,No,,
+Ccache Files,T1558.005,Credential Access,Yes,G1017,Volt Typhoon
+Clear Network Connection History and Configurations,T1070.007,Stealth,Yes,G1017,Volt Typhoon
+AS-REP Roasting,T1558.004,Credential Access,No,,
+Virtual Private Server,T1584.003,Resource Development,Yes,G1017,Volt Typhoon
+AutoHotKey & AutoIT,T1059.010,Execution,No,,
+Reduce Key Space,T1600.001,Defense Impairment,No,,
+Clear Command History,T1070.003,Stealth,No,,
+Indirect Command Execution,T1202,Stealth,No,,
+Replication Through Removable Media,T1091,"Lateral Movement, Initial Access",No,,
+Data from Local System,T1005,Collection,Yes,G1017,Volt Typhoon
+Deobfuscate/Decode Files or Information,T1140,Stealth,Yes,G1017,Volt Typhoon
+Outlook Rules,T1137.005,Persistence,No,,
+Cloud Accounts,T1586.003,Resource Development,No,,
+Email Accounts,T1586.002,Resource Development,No,,
+Additional Local or Domain Groups,T1098.007,"Persistence, Privilege Escalation",Yes,G1017,Volt Typhoon
+Upload Malware,T1608.001,Resource Development,No,,
+Supply Chain Compromise,T1195,Initial Access,No,,
+Exploit Public-Facing Application,T1190,Initial Access,Yes,G1017,Volt Typhoon
+Steal or Forge Kerberos Tickets,T1558,Credential Access,Yes,G1017,Volt Typhoon
+Credentials from Password Stores,T1555,Credential Access,Yes,G1017,Volt Typhoon
+Exfiltration Over Web Service,T1567,Exfiltration,No,,
+Remote Access Tools,T1219,Command And Control,No,,
+Domains,T1583.001,Resource Development,No,,
+Archive via Library,T1560.002,Collection,No,,
+Thread Execution Hijacking,T1055.003,"Stealth, Privilege Escalation",No,,
+Social Engineering,T1684,Stealth,No,,
+Masquerading,T1036,Stealth,Yes,G1017,Volt Typhoon
+Application Shimming,T1546.011,"Privilege Escalation, Persistence",No,,
+Unsecured Credentials,T1552,Credential Access,Yes,G1017,Volt Typhoon
+Port Monitors,T1547.010,"Persistence, Privilege Escalation",No,,
+Clear Mailbox Data,T1070.008,Stealth,No,,
+Login Hook,T1037.002,"Persistence, Privilege Escalation",No,,
+Content Injection,T1659,"Initial Access, Command And Control",No,,
+Process Injection,T1055,"Stealth, Privilege Escalation",Yes,G1017,Volt Typhoon
+Exfiltration Over Webhook,T1567.004,Exfiltration,No,,
+Traffic Signaling,T1205,"Stealth, Persistence, Command And Control",No,,
+Direct Cloud VM Connections,T1021.008,Lateral Movement,No,,
+System Binary Proxy Execution,T1218,Stealth,Yes,G1017,Volt Typhoon
+Timestomp,T1070.006,Stealth,No,,
+Evil Twin,T1557.004,"Credential Access, Collection",No,,
+Reflective Code Loading,T1620,Stealth,No,,
+Wi-Fi Discovery,T1016.002,Discovery,No,,
+Mutual Exclusion,T1480.002,Stealth,No,,
+Ignore Process Interrupts,T1564.011,Stealth,No,,
+Escape to Host,T1611,Privilege Escalation,No,,
+Backup Software Discovery,T1518.002,Discovery,No,,
+Shortcut Modification,T1547.009,"Persistence, Privilege Escalation",No,,
+Application Window Discovery,T1010,Discovery,Yes,G1017,Volt Typhoon
+Systemctl,T1569.003,Execution,No,,
+Email Account,T1087.003,Discovery,No,,
+Time Based Checks,T1497.003,"Stealth, Discovery",No,,
+CMSTP,T1218.003,Stealth,No,,
+SSH Hijacking,T1563.001,Lateral Movement,No,,
+Scheduled Transfer,T1029,Exfiltration,No,,
+SMB/Windows Admin Shares,T1021.002,Lateral Movement,Yes,G1017,Volt Typhoon
+Implant Internal Image,T1525,Persistence,No,,
+Protocol Tunneling,T1572,Command And Control,Yes,G1017,Volt Typhoon
+Control Panel,T1218.002,Stealth,No,,
+Network Address Translation Traversal,T1599.001,Defense Impairment,No,,
+Upload Tool,T1608.002,Resource Development,No,,
+Security Support Provider,T1547.005,"Persistence, Privilege Escalation",Yes,G1017,Volt Typhoon
+Overwrite Process Arguments,T1036.011,Stealth,No,,
+Use Alternate Authentication Material,T1550,Lateral Movement,Yes,G1017,Volt Typhoon
+Threat Intel Vendors,T1597.001,Reconnaissance,No,,
+Exfiltration Over Other Network Medium,T1011,Exfiltration,No,,
+Network Device Configuration Dump,T1602.002,Collection,No,,
+Gather Victim Identity Information,T1589,Reconnaissance,Yes,G1017,Volt Typhoon
+Archive Collected Data,T1560,Collection,Yes,G1017,Volt Typhoon
+SIP and Trust Provider Hijacking,T1553.003,Defense Impairment,No,,
+Browser Session Hijacking,T1185,Collection,No,,
+Remote Services,T1021,Lateral Movement,Yes,G1017,Volt Typhoon
+Mail Protocols,T1071.003,Command And Control,No,,
+Hybrid Identity,T1556.007,"Defense Impairment, Persistence, Credential Access",No,,
+Vulnerability Scanning,T1595.002,Reconnaissance,No,,
+Cloud API,T1059.009,Execution,No,,
+Search Open Technical Databases,T1596,Reconnaissance,Yes,G1017,Volt Typhoon
+Electron Applications,T1218.015,Stealth,No,,
+Rogue Domain Controller,T1207,Defense Impairment,Yes,G1017,Volt Typhoon
+Code Signing Policy Modification,T1553.006,Defense Impairment,No,,
+Deploy Container,T1610,Execution,No,,
+Modify Registry,T1112,"Defense Impairment, Persistence",Yes,G1017,Volt Typhoon
+Launch Daemon,T1543.004,"Persistence, Privilege Escalation",No,,
+Cloud Infrastructure Discovery,T1580,Discovery,No,,
+Credentials from Web Browsers,T1555.003,Credential Access,Yes,G1017,Volt Typhoon
+Path Interception by Search Order Hijacking,T1574.008,"Stealth, Execution",No,,
+Defacement,T1491,Impact,No,,
+Unused/Unsupported Cloud Regions,T1535,Stealth,No,,
+DHCP Spoofing,T1557.003,"Credential Access, Collection",No,,
+Remote Service Session Hijacking,T1563,Lateral Movement,No,,
+Bind Mounts,T1564.013,Stealth,Yes,G1017,Volt Typhoon
+Binary Padding,T1027.001,Stealth,No,,
+Web Shell,T1505.003,Persistence,Yes,G1017,Volt Typhoon
+Group Policy Modification,T1484.001,"Defense Impairment, Privilege Escalation",No,,
+Clear Linux or Mac System Logs,T1685.006,Defense Impairment,No,,
+Browser Information Discovery,T1217,Discovery,Yes,G1017,Volt Typhoon
+Private Keys,T1552.004,Credential Access,Yes,G1017,Volt Typhoon
+Server,T1583.004,Resource Development,No,,
+Windows Remote Management,T1021.006,Lateral Movement,No,,
+Exfiltration Over Bluetooth,T1011.001,Exfiltration,No,,
+Default Accounts,T1078.001,"Stealth, Persistence, Privilege Escalation, Initial Access",No,,
+Time Providers,T1547.003,"Persistence, Privilege Escalation",No,,
+Trap,T1546.005,"Privilege Escalation, Persistence",No,,
+Dynamic Linker Hijacking,T1574.006,"Stealth, Execution",No,,
+Local Account,T1136.001,Persistence,Yes,G1017,Volt Typhoon
+Search Threat Vendor Data,T1681,Reconnaissance,No,,
+Input Injection,T1674,Execution,No,,
+Communication Through Removable Media,T1092,Command And Control,No,,
+Email Accounts,T1585.002,Resource Development,No,,
+Name Resolution Poisoning and SMB Relay,T1557.001,"Credential Access, Collection",Yes,G1017,Volt Typhoon
+File and Directory Permissions Modification,T1222,Defense Impairment,Yes,G1017,Volt Typhoon
+LSASS Memory,T1003.001,Credential Access,Yes,G1017,Volt Typhoon
+IDE Extensions,T1176.002,Persistence,No,,
+Active Scanning,T1595,Reconnaissance,No,,
+Junk Code Insertion,T1027.016,Stealth,No,,
+Abuse Elevation Control Mechanism,T1548,Privilege Escalation,No,,
+Create Process with Token,T1134.002,"Stealth, Privilege Escalation",No,,
+Setuid and Setgid,T1548.001,Privilege Escalation,No,,
+Winlogon Helper DLL,T1547.004,"Persistence, Privilege Escalation",No,,
+Distributed Component Object Model,T1021.003,Lateral Movement,No,,
+Password Spraying,T1110.003,Credential Access,No,,
+External Proxy,T1090.002,Command And Control,No,,
+Web Portal Capture,T1056.003,"Collection, Credential Access",No,,
+Email Addresses,T1589.002,Reconnaissance,Yes,G1017,Volt Typhoon
+Spearphishing Voice,T1598.004,Reconnaissance,No,,
+Written Content,T1683.001,Resource Development,No,,
+Cached Domain Credentials,T1003.005,Credential Access,No,,
+SSH Authorized Keys,T1098.004,"Persistence, Privilege Escalation",No,,
+Virtual Machine Discovery,T1673,Discovery,No,,
+Network Security Appliances,T1590.006,Reconnaissance,Yes,G1017,Volt Typhoon
+Image File Execution Options Injection,T1546.012,"Privilege Escalation, Persistence",No,,
+Odbcconf,T1218.008,Stealth,No,,
+Search Engines,T1593.002,Reconnaissance,No,,
+Business Relationships,T1591.002,Reconnaissance,No,,
+Temporary Elevated Cloud Access,T1548.005,Privilege Escalation,No,,
+Video Capture,T1125,Collection,No,,
+Process Doppelgänging,T1055.013,"Stealth, Privilege Escalation",No,,
+System Network Configuration Discovery,T1016,Discovery,Yes,G1017,Volt Typhoon
+Delete Cloud Instance,T1578.003,Defense Impairment,No,,
+Code Repositories,T1593.003,Reconnaissance,No,,
+Executable Installer File Permissions Weakness,T1574.005,"Stealth, Execution",No,,
+Accessibility Features,T1546.008,"Privilege Escalation, Persistence",No,,
+Bandwidth Hijacking,T1496.002,Impact,No,,
+Account Discovery,T1087,Discovery,Yes,G1017,Volt Typhoon
+Proxy,T1090,Command And Control,Yes,G1017,Volt Typhoon
+Command and Scripting Interpreter,T1059,Execution,Yes,G1017,Volt Typhoon
+Malicious Library,T1204.005,Execution,No,,
+Clear Windows Event Logs,T1685.005,Defense Impairment,Yes,G1017,Volt Typhoon
+Domain Account,T1136.002,Persistence,Yes,G1017,Volt Typhoon
+Extended Attributes,T1564.014,Stealth,No,,
+Employee Names,T1589.003,Reconnaissance,No,,
+Poisoned Pipeline Execution,T1677,Execution,No,,
+Domain Trust Discovery,T1482,Discovery,Yes,G1017,Volt Typhoon
+Golden Ticket,T1558.001,Credential Access,Yes,G1017,Volt Typhoon
+Automated Exfiltration,T1020,Exfiltration,No,,
+Client Configurations,T1592.004,Reconnaissance,No,,
+IDE Tunneling,T1219.001,Command And Control,No,,
+Right-to-Left Override,T1036.002,Stealth,No,,
+Malware,T1588.001,Resource Development,No,,
+SVG Smuggling,T1027.017,Stealth,No,,
+Component Firmware,T1542.002,"Stealth, Persistence",No,,
+Indicator Removal,T1070,Stealth,Yes,G1017,Volt Typhoon
+Exfiltration Over Symmetric Encrypted Non-C2 Protocol,T1048.001,Exfiltration,No,,
+Office Template Macros,T1137.001,Persistence,No,,
+Virtual Private Server,T1583.003,Resource Development,Yes,G1017,Volt Typhoon
+Confluence,T1213.001,Collection,No,,
+Pass the Ticket,T1550.003,Lateral Movement,Yes,G1017,Volt Typhoon
+Container Administration Command,T1609,Execution,No,,
+File and Directory Discovery,T1083,Discovery,Yes,G1017,Volt Typhoon
+Dynamic Resolution,T1568,Command And Control,No,,
+Masquerade Task or Service,T1036.004,Stealth,Yes,G1017,Volt Typhoon
+Asynchronous Procedure Call,T1055.004,"Stealth, Privilege Escalation",No,,
+Traffic Duplication,T1020.001,Exfiltration,No,,
+Plist File Modification,T1647,Defense Impairment,No,,
+JamPlus,T1127.003,"Stealth, Execution",No,,
+AppCert DLLs,T1546.009,"Privilege Escalation, Persistence",No,,
+Email Forwarding Rule,T1114.003,Collection,No,,
+Data Staged,T1074,Collection,Yes,G1017,Volt Typhoon
+Steal or Forge Authentication Certificates,T1649,Credential Access,Yes,G1017,Volt Typhoon
+Device Registration,T1098.005,"Persistence, Privilege Escalation",No,,
+System Network Connections Discovery,T1049,Discovery,Yes,G1017,Volt Typhoon
+Compromise Infrastructure,T1584,Resource Development,Yes,G1017,Volt Typhoon
+Mark-of-the-Web Bypass,T1553.005,Defense Impairment,No,,
+Disable Crypto Hardware,T1600.002,Defense Impairment,No,,
+Pre-OS Boot,T1542,"Stealth, Persistence",No,,
+Build Image on Host,T1612,Stealth,No,,
+Portable Executable Injection,T1055.002,"Stealth, Privilege Escalation",No,,
+Verclsid,T1218.012,Stealth,No,,
+Compromise Accounts,T1586,Resource Development,No,,
+Launchctl,T1569.001,Execution,No,,
+Botnet,T1584.005,Resource Development,Yes,G1017,Volt Typhoon
+Network Device CLI,T1059.008,Execution,No,,
+Shell History,T1552.003,Credential Access,No,,
+XPC Services,T1559.003,Execution,No,,
+Virtualization/Sandbox Evasion,T1497,"Stealth, Discovery",Yes,G1017,Volt Typhoon
+Web Service,T1102,Command And Control,No,,
+Credentials In Files,T1552.001,Credential Access,No,,
+DNS Calculation,T1568.003,Command And Control,No,,
+Mshta,T1218.005,Stealth,No,,
+Login Items,T1547.015,"Persistence, Privilege Escalation",No,,
+Stage Capabilities,T1608,Resource Development,No,,
+Link Target,T1608.005,Resource Development,No,,
+Multi-Stage Channels,T1104,Command And Control,No,,
+Financial Theft,T1657,Impact,No,,
+Execution Guardrails,T1480,Stealth,No,,
+Cloud Storage Object Discovery,T1619,Discovery,No,,
+Web Cookies,T1606.001,Credential Access,No,,
+Log Enumeration,T1654,Discovery,Yes,G1017,Volt Typhoon
+Token Impersonation/Theft,T1134.001,"Stealth, Privilege Escalation",No,,
+Exfiltration to Code Repository,T1567.001,Exfiltration,No,,
+Cloud Services,T1021.007,Lateral Movement,No,,
+Port Knocking,T1205.001,"Stealth, Persistence, Command And Control",No,,
+LNK Icon Smuggling,T1027.012,Stealth,No,,
+Web Services,T1583.006,Resource Development,No,,
+Steal Application Access Token,T1528,Credential Access,No,,
+Spearphishing Attachment,T1598.002,Reconnaissance,No,,
+Additional Cloud Credentials,T1098.001,"Persistence, Privilege Escalation",No,,
+User Execution,T1204,Execution,No,,
+Internal Defacement,T1491.001,Impact,No,,
+Hidden Users,T1564.002,Stealth,No,,
+Make and Impersonate Token,T1134.003,"Stealth, Privilege Escalation",No,,
+Group Policy Preferences,T1552.006,Credential Access,No,,
+Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,T1048.002,Exfiltration,No,,
+Cloud Account,T1087.004,Discovery,No,,
+Audio-Visual Content,T1683.002,Resource Development,No,,
+Process Discovery,T1057,Discovery,Yes,G1017,Volt Typhoon
+Network Provider DLL,T1556.008,"Defense Impairment, Persistence, Credential Access",No,,
+Windows Management Instrumentation Event Subscription,T1546.003,"Privilege Escalation, Persistence",No,,
+CDNs,T1596.004,Reconnaissance,No,,
+User Activity Based Checks,T1497.002,"Stealth, Discovery",No,,
+Cloud Service Hijacking,T1496.004,Impact,No,,
+Cloud Accounts,T1585.003,Resource Development,No,,
+Software Deployment Tools,T1072,"Execution, Lateral Movement",No,,
+Exfiltration Over C2 Channel,T1041,Exfiltration,No,,
+Parent PID Spoofing,T1134.004,"Stealth, Privilege Escalation",No,,
+Gather Victim Org Information,T1591,Reconnaissance,Yes,G1017,Volt Typhoon
+Forge Web Credentials,T1606,Credential Access,No,,
+Multi-Factor Authentication Request Generation,T1621,Credential Access,No,,
+Compromise Host Software Binary,T1554,Persistence,No,,
+Chat Messages,T1552.008,Credential Access,No,,
+PowerShell,T1059.001,Execution,Yes,G1017,Volt Typhoon
+Change Default File Association,T1546.001,"Privilege Escalation, Persistence",No,,
+VDSO Hijacking,T1055.014,"Stealth, Privilege Escalation",No,,
+File Transfer Protocols,T1071.002,Command And Control,No,,
+Selective Exclusion,T1679,Stealth,No,,
+Exploitation for Credential Access,T1212,Credential Access,No,,
+Emond,T1546.014,"Privilege Escalation, Persistence",No,,
+One-Way Communication,T1102.003,Command And Control,No,,
+Gather Victim Network Information,T1590,Reconnaissance,Yes,G1017,Volt Typhoon
+Exploitation of Remote Services,T1210,Lateral Movement,No,,
+Internal Spearphishing,T1534,Lateral Movement,No,,
+Services File Permissions Weakness,T1574.010,"Stealth, Execution",No,,
+Registry Run Keys / Startup Folder,T1547.001,"Persistence, Privilege Escalation",No,,
+Trusted Relationship,T1199,Initial Access,No,,
+Cloud Account,T1136.003,Persistence,No,,
+Local Groups,T1069.001,Discovery,Yes,G1017,Volt Typhoon
+Search Open Websites/Domains,T1593,Reconnaissance,Yes,G1017,Volt Typhoon
+Account Manipulation,T1098,"Persistence, Privilege Escalation",Yes,G1017,Volt Typhoon
+Exfiltration Over Alternative Protocol,T1048,Exfiltration,No,,
+Kernel Modules and Extensions,T1547.006,"Persistence, Privilege Escalation",No,,
+Delay Execution,T1678,Stealth,No,,
+GUI Input Capture,T1056.002,"Collection, Credential Access",No,,
+Network Device Firewall,T1686.002,Defense Impairment,No,,
+Tool,T1588.002,Resource Development,Yes,G1017,Volt Typhoon
+Exfiltration over USB,T1052.001,Exfiltration,No,,
+KernelCallbackTable,T1574.013,"Stealth, Execution",No,,
+Search Closed Sources,T1597,Reconnaissance,No,,
+Systemd Timers,T1053.006,"Execution, Persistence, Privilege Escalation",No,,
+Phishing,T1566,Initial Access,No,,
+ROMMONkit,T1542.004,"Stealth, Persistence",No,,
+Compiled HTML File,T1218.001,Stealth,No,,
+Compute Hijacking,T1496.001,Impact,No,,
+Network Share Connection Removal,T1070.005,Stealth,Yes,G1017,Volt Typhoon
+Multi-hop Proxy,T1090.003,Command And Control,Yes,G1017,Volt Typhoon
+Brute Force,T1110,Credential Access,No,,
+Unix Shell,T1059.004,Execution,Yes,G1017,Volt Typhoon
+Outlook Forms,T1137.003,Persistence,No,,
+Remote Access Hardware,T1219.003,Command And Control,No,,
+Data Manipulation,T1565,Impact,No,,
+Inter-Process Communication,T1559,Execution,No,,
+Data Obfuscation,T1001,Command And Control,No,,
+Data from Network Shared Drive,T1039,Collection,No,,
+Web Services,T1584.006,Resource Development,No,,
+Modify System Image,T1601,Defense Impairment,No,,
+Hijack Execution Flow,T1574,"Stealth, Execution",No,,
+Browser Fingerprint,T1036.012,Stealth,No,,
+Lua,T1059.011,Execution,No,,
+Indicator Removal from Tools,T1027.005,Stealth,No,,
+Malicious Image,T1204.003,Execution,No,,
+Container Service,T1543.005,"Persistence, Privilege Escalation",No,,
+Valid Accounts,T1078,"Stealth, Persistence, Privilege Escalation, Initial Access",Yes,G1017,Volt Typhoon
+Non-Standard Port,T1571,Command And Control,Yes,G1017,Volt Typhoon
+Social Media Accounts,T1585.001,Resource Development,No,,
+Process Hollowing,T1055.012,"Stealth, Privilege Escalation",No,,
+Exploitation for Privilege Escalation,T1068,Privilege Escalation,Yes,G1017,Volt Typhoon
+Resource Forking,T1564.009,Stealth,No,,
+Account Access Removal,T1531,Impact,No,,
+Credential Stuffing,T1110.004,Credential Access,No,,
+Obfuscated Files or Information,T1027,Stealth,Yes,G1017,Volt Typhoon
+Multi-Factor Authentication,T1556.006,"Defense Impairment, Persistence, Credential Access",No,,
+Remote Email Collection,T1114.002,Collection,No,,
+IIS Components,T1505.004,Persistence,No,,
+Invalid Code Signature,T1036.001,Stealth,No,,
+Generate Content,T1683,Resource Development,No,,
+Run Virtual Instance,T1564.006,Stealth,No,,
+Polymorphic Code,T1027.014,Stealth,No,,
+Password Policy Discovery,T1201,Discovery,Yes,G1017,Volt Typhoon
+Event Triggered Execution,T1546,"Privilege Escalation, Persistence",Yes,G1017,Volt Typhoon
+Unix Shell Configuration Modification,T1546.004,"Privilege Escalation, Persistence",No,,
+Forced Authentication,T1187,Credential Access,No,,
+SID-History Injection,T1134.005,"Stealth, Privilege Escalation",Yes,G1017,Volt Typhoon
+Network Boundary Bridging,T1599,Defense Impairment,No,,
+Data Encrypted for Impact,T1486,Impact,No,,
+Prevent Command History Logging,T1690,Defense Impairment,No,,
+Subvert Trust Controls,T1553,Defense Impairment,Yes,G1017,Volt Typhoon
+Elevated Execution with Prompt,T1548.004,Privilege Escalation,No,,
+Firmware,T1592.003,Reconnaissance,No,,
+Encrypted Channel,T1573,Command And Control,Yes,G1017,Volt Typhoon
+Authentication Package,T1547.002,"Persistence, Privilege Escalation",No,,
+Regsvr32,T1218.010,Stealth,No,,
+Exfiltration to Text Storage Sites,T1567.003,Exfiltration,No,,
+Software,T1592.002,Reconnaissance,No,,
+Input Capture,T1056,"Collection, Credential Access",Yes,G1017,Volt Typhoon
+Spearphishing Voice,T1566.004,Initial Access,No,,
+Exploits,T1587.004,Resource Development,Yes,G1017,Volt Typhoon
+Disable or Modify Tools,T1685,Defense Impairment,Yes,G1017,Volt Typhoon
+Social Media,T1593.001,Reconnaissance,No,,
+Customer Relationship Management Software,T1213.004,Collection,No,,
+Component Object Model Hijacking,T1546.015,"Privilege Escalation, Persistence",No,,
+Credentials,T1589.001,Reconnaissance,No,,
+Compromise Software Supply Chain,T1195.002,Initial Access,No,,
+Rename Legitimate Utilities,T1036.003,Stealth,No,,
+Bidirectional Communication,T1102.002,Command And Control,No,,
+Exploitation for Client Execution,T1203,Execution,Yes,G1017,Volt Typhoon
+Wordlist Scanning,T1595.003,Reconnaissance,No,,
+Email Bombing,T1667,Impact,No,,
+Outlook Home Page,T1137.004,Persistence,No,,
+Asymmetric Cryptography,T1573.002,Command And Control,Yes,G1017,Volt Typhoon
+Exfiltration to Cloud Storage,T1567.002,Exfiltration,No,,
+Lateral Tool Transfer,T1570,Lateral Movement,Yes,G1017,Volt Typhoon
+Path Interception by Unquoted Path,T1574.009,"Stealth, Execution",No,,
+Install Digital Certificate,T1608.003,Resource Development,No,,
+Startup Items,T1037.005,"Persistence, Privilege Escalation",No,,
+System Language Discovery,T1614.001,Discovery,No,,
+Non-Application Layer Protocol,T1095,Command And Control,Yes,G1017,Volt Typhoon
+Container CLI/API,T1059.013,Execution,No,,
+Steganography,T1027.003,Stealth,No,,
+DNS Server,T1584.002,Resource Development,No,,
+Cloud Application Integration,T1671,Persistence,No,,
+Protocol or Service Impersonation,T1001.003,Command And Control,No,,
+Query Registry,T1012,Discovery,Yes,G1017,Volt Typhoon
+Data Transfer Size Limits,T1030,Exfiltration,No,,
+Web Session Cookie,T1550.004,Lateral Movement,No,,
+Domain Accounts,T1078.002,"Stealth, Persistence, Privilege Escalation, Initial Access",Yes,G1017,Volt Typhoon
+Regsvcs/Regasm,T1218.009,Stealth,No,,
+Python Startup Hooks,T1546.018,"Persistence, Privilege Escalation",No,,
+Install Root Certificate,T1553.004,Defense Impairment,Yes,G1017,Volt Typhoon
+Network Logon Script,T1037.003,"Persistence, Privilege Escalation",No,,
+Endpoint Denial of Service,T1499,Impact,No,,
+Compile After Delivery,T1027.004,Stealth,No,,
+Safe Mode Boot,T1688,Defense Impairment,No,,
+System Location Discovery,T1614,Discovery,Yes,G1017,Volt Typhoon
+VBA Stomping,T1564.007,Stealth,No,,
+BITS Jobs,T1197,"Stealth, Persistence, Execution",No,,
+MSBuild,T1127.001,"Stealth, Execution",No,,
+Modify Cloud Compute Configurations,T1578.005,Defense Impairment,No,,
+Domain Fronting,T1090.004,Command And Control,No,,
+ARP Cache Poisoning,T1557.002,"Credential Access, Collection",No,,
+Security Software Discovery,T1518.001,Discovery,Yes,G1017,Volt Typhoon
+Hidden Window,T1564.003,Stealth,No,,
+ClickOnce,T1127.002,"Stealth, Execution",No,,
+Python,T1059.006,Execution,No,,
+Relocate Malware,T1070.010,Stealth,No,,
+Identify Roles,T1591.004,Reconnaissance,Yes,G1017,Volt Typhoon
+Data Encoding,T1132,Command And Control,No,,
+AppInit DLLs,T1546.010,"Privilege Escalation, Persistence",No,,
+Phishing for Information,T1598,Reconnaissance,No,,
+Resource Hijacking,T1496,Impact,No,,
+Impersonation,T1684.001,Stealth,No,,
+Establish Accounts,T1585,Resource Development,No,,
+Obtain Capabilities,T1588,Resource Development,Yes,G1017,Volt Typhoon
+Screensaver,T1546.002,"Privilege Escalation, Persistence",No,,
+Conditional Access Policies,T1556.009,"Defense Impairment, Persistence, Credential Access",No,,
+Create Cloud Instance,T1578.002,Defense Impairment,No,,
+Cloud Secrets Management Stores,T1555.006,Credential Access,No,,
+Code Repositories,T1213.003,Collection,No,,
+Transmitted Data Manipulation,T1565.002,Impact,No,,
+/etc/passwd and /etc/shadow,T1003.008,Credential Access,No,,
+Launch Agent,T1543.001,"Persistence, Privilege Escalation",No,,
+System Services,T1569,Execution,Yes,G1017,Volt Typhoon
+Windows Command Shell,T1059.003,Execution,Yes,G1017,Volt Typhoon
+Proc Memory,T1055.009,"Stealth, Privilege Escalation",Yes,G1017,Volt Typhoon
+Acquire Access,T1650,Resource Development,No,,
+Patch System Image,T1601.001,Defense Impairment,No,,
+Silver Ticket,T1558.002,Credential Access,Yes,G1017,Volt Typhoon
+Data from Information Repositories,T1213,Collection,No,,
+Clear Persistence,T1070.009,Stealth,No,,
+Hypervisor CLI,T1059.012,Execution,No,,
+Windows Credential Manager,T1555.004,Credential Access,Yes,G1017,Volt Typhoon
+Masquerade Account Name,T1036.010,Stealth,No,,
+Hardware Additions,T1200,Initial Access,No,,
+Remote Desktop Software,T1219.002,Command And Control,No,,
+Server Software Component,T1505,Persistence,Yes,G1017,Volt Typhoon
+Data Destruction,T1485,Impact,No,,
+Non-Standard Encoding,T1132.002,Command And Control,No,,
+Domain Controller Authentication,T1556.001,"Defense Impairment, Persistence, Credential Access",No,,
+Transfer Data to Cloud Account,T1537,Exfiltration,No,,
+HTML Smuggling,T1027.006,Stealth,No,,
+Reversible Encryption,T1556.005,"Defense Impairment, Persistence, Credential Access",No,,
+Command Obfuscation,T1027.010,Stealth,No,,
+File Deletion,T1070.004,Stealth,Yes,G1017,Volt Typhoon
+Drive-by Compromise,T1189,Initial Access,No,,
+Network Denial of Service,T1498,Impact,No,,
+Cloud Administration Command,T1651,Execution,No,,
+Installer Packages,T1546.016,"Privilege Escalation, Persistence",No,,
+Scanning IP Blocks,T1595.001,Reconnaissance,No,,
+Template Injection,T1221,Stealth,No,,
+RC Scripts,T1037.004,"Persistence, Privilege Escalation",No,,
+Access Token Manipulation,T1134,"Stealth, Privilege Escalation",Yes,G1017,Volt Typhoon
+Multi-Factor Authentication Interception,T1111,Credential Access,No,,
+Software Packing,T1027.002,Stealth,Yes,G1017,Volt Typhoon
+Serverless,T1584.007,Resource Development,No,,
+Web Protocols,T1071.001,Command And Control,Yes,G1017,Volt Typhoon
+Visual Basic,T1059.005,Execution,No,,
+Hidden File System,T1564.005,Stealth,No,,
+Systemd Service,T1543.002,"Persistence, Privilege Escalation",No,,
+Exclusive Control,T1668,Persistence,No,,
+RDP Hijacking,T1563.002,Lateral Movement,No,,
+Create Account,T1136,Persistence,Yes,G1017,Volt Typhoon
+XDG Autostart Entries,T1547.013,"Persistence, Privilege Escalation",No,,
+Server,T1584.004,Resource Development,Yes,G1017,Volt Typhoon
+Cloud Service Discovery,T1526,Discovery,No,,
+Malicious Copy and Paste,T1204.004,Execution,No,,
+Remote System Discovery,T1018,Discovery,Yes,G1017,Volt Typhoon
+Network Service Discovery,T1046,Discovery,Yes,G1017,Volt Typhoon
+Domain Properties,T1590.001,Reconnaissance,No,,
+Software Discovery,T1518,Discovery,Yes,G1017,Volt Typhoon
+Cloud Service Dashboard,T1538,Discovery,No,,
+Thread Local Storage,T1055.005,"Stealth, Privilege Escalation",No,,
+Debugger Evasion,T1622,"Stealth, Discovery",No,,
+Space after Filename,T1036.006,Stealth,No,,
+Re-opened Applications,T1547.007,"Persistence, Privilege Escalation",No,,
+SEO Poisoning,T1608.006,Resource Development,No,,
+Pass the Hash,T1550.002,Lateral Movement,Yes,G1017,Volt Typhoon
+Exfiltration Over Physical Medium,T1052,Exfiltration,No,,
+Ingress Tool Transfer,T1105,Command And Control,Yes,G1017,Volt Typhoon
+SyncAppvPublishingServer,T1216.002,Stealth,No,,
+Additional Email Delegate Permissions,T1098.002,"Persistence, Privilege Escalation",No,,
+Code Signing Certificates,T1588.003,Resource Development,No,,
+Serverless Execution,T1648,Execution,No,,
+TCC Manipulation,T1548.006,Privilege Escalation,No,,
+Invisible Unicode,T1027.018,Stealth,No,,
+Ptrace System Calls,T1055.008,"Stealth, Privilege Escalation",No,,
+Power Settings,T1653,Persistence,No,,
+Dynamic API Resolution,T1027.007,Stealth,No,,
+Remote Desktop Protocol,T1021.001,Lateral Movement,Yes,G1017,Volt Typhoon
+Logon Script (Windows),T1037.001,"Persistence, Privilege Escalation",No,,
+ListPlanting,T1055.015,"Stealth, Privilege Escalation",No,,
+Hide Infrastructure,T1665,Command And Control,No,,
+Domain or Tenant Policy Modification,T1484,"Defense Impairment, Privilege Escalation",No,,
+XSL Script Processing,T1220,Stealth,No,,
+Scan Databases,T1596.005,Reconnaissance,Yes,G1017,Volt Typhoon
+Hidden Files and Directories,T1564.001,Stealth,No,,
+Create Snapshot,T1578.001,Defense Impairment,No,,
+Determine Physical Locations,T1591.001,Reconnaissance,No,,
+Office Test,T1137.002,Persistence,No,,
+Develop Capabilities,T1587,Resource Development,Yes,G1017,Volt Typhoon
+NTDS,T1003.003,Credential Access,Yes,G1017,Volt Typhoon
+Cloud Firewall,T1686.001,Defense Impairment,No,,
+SNMP (MIB Dump),T1602.001,Collection,No,,
+Disable or Modify System Firewall,T1686,Defense Impairment,Yes,G1017,Volt Typhoon
+Steganography,T1001.002,Command And Control,No,,
+Malicious Link,T1204.001,Execution,No,,
+Application Access Token,T1550.001,Lateral Movement,No,,
+LSASS Driver,T1547.008,"Persistence, Privilege Escalation",No,,
+Service Execution,T1569.002,Execution,Yes,G1017,Volt Typhoon
+Cloud Accounts,T1078.004,"Stealth, Persistence, Privilege Escalation, Initial Access",No,,
+Environmental Keying,T1480.001,Stealth,No,,
+Fallback Channels,T1008,Command And Control,No,,
+Local Storage Discovery,T1680,Discovery,Yes,G1017,Volt Typhoon
+NTFS File Attributes,T1564.004,Stealth,No,,
+Kerberoasting,T1558.003,Credential Access,Yes,G1017,Volt Typhoon
+DCSync,T1003.006,Credential Access,Yes,G1017,Volt Typhoon
+System Time Discovery,T1124,Discovery,Yes,G1017,Volt Typhoon
+At,T1053.002,"Execution, Persistence, Privilege Escalation",No,,
+Dynamic-link Library Injection,T1055.001,"Stealth, Privilege Escalation",No,,
+Exploits,T1588.005,Resource Development,No,,
+Modify Authentication Process,T1556,"Defense Impairment, Persistence, Credential Access",No,,
+Udev Rules,T1546.017,"Persistence, Privilege Escalation",No,,
+Credential API Hooking,T1056.004,"Collection, Credential Access",Yes,G1017,Volt Typhoon
+Firmware Corruption,T1495,Impact,No,,
+Inhibit System Recovery,T1490,Impact,No,,
+Netsh Helper DLL,T1546.007,"Privilege Escalation, Persistence",Yes,G1017,Volt Typhoon
+Spearphishing via Service,T1566.003,Initial Access,No,,
+Internal Proxy,T1090.001,Command And Control,Yes,G1017,Volt Typhoon
+System Script Proxy Execution,T1216,Stealth,No,,
+Dead Drop Resolver,T1102.001,Command And Control,No,,
+Junk Data,T1001.001,Command And Control,No,,
+Spearphishing Service,T1598.001,Reconnaissance,No,,
+vSphere Installation Bundles,T1505.006,Persistence,No,,
+Container API,T1552.007,Credential Access,No,,
+Domains,T1584.001,Resource Development,No,,
+SQL Stored Procedures,T1505.001,Persistence,No,,
+Network Device Authentication,T1556.004,"Defense Impairment, Persistence, Credential Access",No,,
+Disk Content Wipe,T1561.001,Impact,No,,
+Messaging Applications,T1213.005,Collection,No,,
+Exfiltration Over Unencrypted Non-C2 Protocol,T1048.003,Exfiltration,No,,
+Compression,T1027.015,Stealth,No,,
+Dylib Hijacking,T1574.004,"Stealth, Execution",No,,
+Downgrade System Image,T1601.002,Defense Impairment,No,,
+Email Spoofing,T1684.002,Stealth,No,,
+Local Accounts,T1078.003,"Stealth, Persistence, Privilege Escalation, Initial Access",No,,
+Wi-Fi Networks,T1669,Initial Access,No,,
+Exploitation for Stealth,T1211,Stealth,No,,
+Trusted Developer Utilities Proxy Execution,T1127,"Stealth, Execution",No,,
+System Shutdown/Reboot,T1529,Impact,No,,
+MMC,T1218.014,Stealth,No,,
+Process Argument Spoofing,T1564.010,Stealth,No,,
+COR_PROFILER,T1574.012,"Stealth, Execution",No,,
