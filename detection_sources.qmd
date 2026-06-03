@@ -3,7 +3,7 @@ title: "Detection Sources"
 ---
 
 This chart shows the ATT&CK detection data components most frequently associated with techniques attributed to Volt Typhoon. Each bar represents the number of ATT&CK detection references that rely on a specific telemetry source, such as process creation events, command execution logs, network traffic content, or user authentication records. Higher values indicate that a particular data source is relevant to detecting a larger portion of Volt Typhoon's documented techniques.
-<iframe src="figures/volt_typhoon_detection_sources.html" width="100%" height="650"></iframe>
+<iframe src="figures/volt_typhoon_detection_sources.html" width="100%" height="650"></iframe>  
 
 ## So what?
 
