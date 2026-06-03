@@ -8,6 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: detection_sources.qmd
+        text: Detection Sources
+      - href: mitigation_coverage.qmd
+        text: Mitigation Coverage
       - href: about.qmd
         text: About
 

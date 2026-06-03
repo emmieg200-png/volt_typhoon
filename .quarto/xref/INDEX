@@ -4,5 +4,11 @@
   },
   "index.qmd": {
     "index.html": "d4565dd7"
+  },
+  "detection_sources.qmd": {
+    "detection_sources.html": "67d4258a"
+  },
+  "mitigation_coverage.qmd": {
+    "mitigation_coverage.html": "d9c596c7"
   }
 }

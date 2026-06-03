@@ -160,6 +160,8 @@ class VoltTyphoonMitigationCoverage:
             template="plotly_white",
             height=700,
             showlegend=False,
+            xaxis_title="Volt Typhoon Techniques Addressed",
+            yaxis_title="Defensive Control",
             margin=dict(
                 l=250,
                 r=50,
@@ -167,6 +169,7 @@ class VoltTyphoonMitigationCoverage:
                 b=50
             )
         )
+        
 
     def save_outputs(self):
 
