@@ -1,0 +1,45 @@
+---
+title: "Key Findings"
+---
+
+Source: Cybersecurity & Infrastructure Security Agency (CISA)
+
+## Focus on Persistence
+
+Volt Typhoon Focuses on Persistence, Not Immediate Destruction  
+
+The advisory describes a consistent attack pattern:  
+
+ - Reconnaissance  
+ - Initial access via vulnerable edge devices  
+ - Credential theft  
+ - Privilege escalation  
+ - Lateral movement  
+ - Long-term persistence  
+ - Potential positioning for future disruption of OT systems  
+
+This supports the conclusion that Volt Typhoon is a strategic threat rather than a smash-and-grab attacker.  
+
+### So What?
+For the Army and U.S. critical infrastructure:  
+The danger is not what Volt Typhoon did yesterday, but what they may already be positioned to do tomorrow.  
+
+## Living Off the Land is Their Signature technique
+
+Rather than using obvious malware, Volt Typhoon:  
+ - Uses legitimate administrative tools  
+ - Uses valid credentials  
+ - Uses normal Windows functionality  
+ - Uses VPNs and remote access services  
+
+This allows them to blend into normal network activity  
+
+### So What?
+
+Traditional malware-focused defenses are insufficient.  
+Organizations must monitor:  
+ - Process Creation  
+ - Authentication events  
+ - Command execution  
+ - Network Connections  
+The detection sources chart and CISA's findings align. CISA states that Volt Typhoon executes commands, uses built-in tools, uses valid accounts, moves laterally, and maintains persistence. All of those activities generate logs of those stated above.

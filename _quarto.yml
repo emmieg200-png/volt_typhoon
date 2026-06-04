@@ -12,6 +12,8 @@ website:
         text: Detection Sources
       - href: mitigation_coverage.qmd
         text: Mitigation Coverage
+      - href: key findings.qmd
+        text: Key Findings
       - href: about.qmd
         text: About
 

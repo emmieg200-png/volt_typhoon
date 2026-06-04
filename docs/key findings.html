@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mitigation Coverage – Volt Typhoon Analysis</title>
+<title>Key Findings – Volt Typhoon Analysis</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -101,11 +101,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Detection Sources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./mitigation_coverage.html" aria-current="page"> 
+    <a class="nav-link" href="./mitigation_coverage.html"> 
 <span class="menu-text">Mitigation Coverage</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./key findings.html"> 
+    <a class="nav-link active" href="./key findings.html" aria-current="page"> 
 <span class="menu-text">Key Findings</span></a>
   </li>  
   <li class="nav-item">
@@ -128,7 +128,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#so-what" id="toc-so-what" class="nav-link active" data-scroll-target="#so-what">So What?</a></li>
+  <li><a href="#focus-on-persistence" id="toc-focus-on-persistence" class="nav-link active" data-scroll-target="#focus-on-persistence">Focus on Persistence</a>
+  <ul class="collapse">
+  <li><a href="#so-what" id="toc-so-what" class="nav-link" data-scroll-target="#so-what">So What?</a></li>
+  </ul></li>
+  <li><a href="#living-off-the-land-is-their-signature-technique" id="toc-living-off-the-land-is-their-signature-technique" class="nav-link" data-scroll-target="#living-off-the-land-is-their-signature-technique">Living Off the Land is Their Signature technique</a>
+  <ul class="collapse">
+  <li><a href="#so-what-1" id="toc-so-what-1" class="nav-link" data-scroll-target="#so-what-1">So What?</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -137,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mitigation Coverage</h1>
+<h1 class="title">Key Findings</h1>
 </div>
 
 
@@ -154,18 +161,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This chart shows which what defensive controls would reduce the effectiveness of the techniques Volt Typhoon is known to use. For example, ATT&amp;CK identifies Privileged Account Management as a mitigation for 39 documented Volt Typhoon technique relationships.</p>
-<iframe src="figures/volt_typhoon_mitigation_coverage.html" width="100%" height="650">
-</iframe>
-<p>The most broadly applicable mitigations focus on identity management, auditing, and pre-compromise hardening. This reflects Volt Typhoon’s reliance on stolen credentials and legitimate administrative tools rather than custom malware.</p>
-<section id="so-what" class="level2">
-<h2 class="anchored" data-anchor-id="so-what">So What?</h2>
+<p>Source: Cybersecurity &amp; Infrastructure Security Agency (CISA)</p>
+<section id="focus-on-persistence" class="level2">
+<h2 class="anchored" data-anchor-id="focus-on-persistence">Focus on Persistence</h2>
+<p>Volt Typhoon Focuses on Persistence, Not Immediate Destruction</p>
+<p>The advisory describes a consistent attack pattern:</p>
 <ul>
-<li>The numbers represent breadth of defensive coverage, not strength of protection. Higher values indicate controls that are relevant to a larger share of Volt Typhoon’s documented tradecraft. <br></li>
-<li>This chart suggests that the most effective defense against Volt Typhoon is not traditional malware detection, but rather strong identity security, continuous monitoring, and limiting adversaries’ ability to abuse legitimate credentials.</li>
+<li>Reconnaissance<br>
+</li>
+<li>Initial access via vulnerable edge devices<br>
+</li>
+<li>Credential theft<br>
+</li>
+<li>Privilege escalation<br>
+</li>
+<li>Lateral movement<br>
+</li>
+<li>Long-term persistence<br>
+</li>
+<li>Potential positioning for future disruption of OT systems</li>
 </ul>
+<p>This supports the conclusion that Volt Typhoon is a strategic threat rather than a smash-and-grab attacker.</p>
+<section id="so-what" class="level3">
+<h3 class="anchored" data-anchor-id="so-what">So What?</h3>
+<p>For the Army and U.S. critical infrastructure:<br>
+The danger is not what Volt Typhoon did yesterday, but what they may already be positioned to do tomorrow.</p>
+</section>
+</section>
+<section id="living-off-the-land-is-their-signature-technique" class="level2">
+<h2 class="anchored" data-anchor-id="living-off-the-land-is-their-signature-technique">Living Off the Land is Their Signature technique</h2>
+<p>Rather than using obvious malware, Volt Typhoon:<br>
+- Uses legitimate administrative tools<br>
+- Uses valid credentials<br>
+- Uses normal Windows functionality<br>
+- Uses VPNs and remote access services</p>
+<p>This allows them to blend into normal network activity</p>
+<section id="so-what-1" class="level3">
+<h3 class="anchored" data-anchor-id="so-what-1">So What?</h3>
+<p>Traditional malware-focused defenses are insufficient.<br>
+Organizations must monitor:<br>
+- Process Creation<br>
+- Authentication events<br>
+- Command execution<br>
+- Network Connections<br>
+The detection sources chart and CISA’s findings align. CISA states that Volt Typhoon executes commands, uses built-in tools, uses valid accounts, moves laterally, and maintains persistence. All of those activities generate logs of those stated above.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
