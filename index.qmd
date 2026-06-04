@@ -5,9 +5,7 @@ title: "Volt Typhoon Analysis"
 ## Overview
 
 This website presents an overview of Volt Typhoon activity, mapped to MITRE ATT&CK tactics, detection sources, and mitigations. 
-
 <br>
-
 Volt Typhoon is a Chinese state-sponsored advanced persistent threat (APT) assessed to be conducting long-term cyber espionage and pre-positioning operations against U.S. critical infrastructure. The group's tactics emphasize stealth, credential abuse, and persistence, allowing it to maintain access to networks that may support military and national security operations.
 
 ## Activity Timeline
@@ -15,7 +13,6 @@ Volt Typhoon is a Chinese state-sponsored advanced persistent threat (APT) asses
 This timeline shows how observed activity develops over time.
 
 <iframe src="figures/volt_typhoon_activity_timeline.html" width="100%" height="650"></iframe>
-
 The timeline illustrates the evolution of public awareness of Volt Typhoon activity. While public disclosures began in 2023, subsequent investigations revealed that the group had maintained access to critical infrastructure networks for years before detection.
 
 ## Tactic Coverage Heatmap
