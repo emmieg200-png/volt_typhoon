@@ -35,11 +35,11 @@
     "text": "Activity Timeline\nThis timeline shows how observed activity develops over time.\n\n\nThe timeline illustrates the evolution of public awareness of Volt Typhoon activity. While public disclosures began in 2023, subsequent investigations revealed that the group had maintained access to critical infrastructure networks for years before detection."
   },
   {
-    "objectID": "index.html#tactic-coverage-heatmap",
-    "href": "index.html#tactic-coverage-heatmap",
+    "objectID": "index.html#tactics-vs-techniques-bar-chart",
+    "href": "index.html#tactics-vs-techniques-bar-chart",
     "title": "Volt Typhoon Analysis",
-    "section": "Tactic Coverage Heatmap",
-    "text": "Tactic Coverage Heatmap\nThis heatmap shows how Volt Typhoon techniques are distributed across tactics."
+    "section": "Tactics vs Techniques Bar Chart",
+    "text": "Tactics vs Techniques Bar Chart\nThis bar chart shows how Volt Typhoon techniques are distributed across tactics."
   },
   {
     "objectID": "about.html",
